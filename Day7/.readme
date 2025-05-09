@@ -1,1 +1,14 @@
+Hangman Game 🎯
 
+A simple Hangman game built with Python as part of a programming task. This command-line game allows the user to guess letters of a randomly selected word, with a limited number of lives and ASCII-based visual feedback.
+
+📁 Project Structure
+- `main.py` – Main game logic
+- `hangman_words.py` – Contains a list of words for the game
+- `hangman_art.py` – Contains ASCII logo and hangman stages
+
+🔧 Features
+- Tracks correct and incorrect guesses
+- Displays number of lives left
+- Prevents duplicate guesses from affecting gameplay
+- ASCII art for game stages and logo
