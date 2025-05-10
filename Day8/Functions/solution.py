@@ -1,17 +1,20 @@
-# Simple Function that packages code into a named block
-def greet():
-    print("Hello Angela")
-    print("How do you do Jack Bauer?")
-    print("Isn't the weather nice?")
+# name = input("Please Enter your name ")
+# def greet():
+#     print(f"Hello {name}")
+#     print(f"Have a good day {name}")
+# greet()
 
-
-greet()
-
-
-# Function that allows for inputs
+# function with inputs
 def greet_with_name(name):
     print(f"Hello {name}")
-    print(f"How do you do {name}?")
+    print(f"Have a good day {name}")
+greet_with_name("batool")
+# functions with more than 1 inputs , calling positional arguments
 
+def greet_with(name , location):
+    print(f"Hello {name}")
+    print(f"What is it like in {location}")
+# greet_with("Rubab","Islamabad")
 
-greet_with_name("Billie")
+# calling with keyword arguments
+greet_with(location="Islamabad",name="Rubab")
