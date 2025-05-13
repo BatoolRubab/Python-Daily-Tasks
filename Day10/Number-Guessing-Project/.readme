@@ -1,1 +1,22 @@
+🎯 Number Guessing Game
 
+A beginner-friendly Python game where the user tries to guess a randomly selected number between 1 and 100.
+
+📌 Features
+  Difficulty levels:
+  Easy: 10 attempts
+  Hard: 5 attempts
+  Hints to guide the player (Too high / Too low)
+
+🔄 Game Flow
+1. The program chooses a random number between 1 and 100.
+2. The player selects a difficulty level.
+3. The player attempts to guess the number with a limited number of chances.
+4. After each guess, feedback is provided until the game ends.
+
+💡 Learning Outcomes
+ Function creation and reuse
+ Conditional statements and loops
+ User input handling
+ Working with modules (`random`)
+ Basic game logic and flow control
