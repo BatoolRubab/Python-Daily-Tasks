@@ -1,1 +1,34 @@
+♠️ Blackjack Capstone Game
 
+This is a command-line Blackjack game written in Python. The player competes against the computer in a simplified version of the classic card game. 
+This project demonstrates Python fundamentals like functions, conditionals, loops, list handling, and game logic.
+
+🎯 Objective
+
+Try to beat the dealer by getting as close to 21 as possible without going over. 
+A hand with an Ace and a 10 (Jack, Queen, King, or 10) on the first two cards is considered a **Blackjack** and wins instantly.
+
+📌 Features
+
+ Full Blackjack rules with score calculation
+ Automatically handles **Ace as 1 or 11**
+ Detects **Blackjack** (Ace + 10) for instant win
+ Dealer draws cards until score reaches 17 or more
+ User decides to draw more cards or pass
+ Clean game structure using reusable functions
+
+🔄 Game Flow
+
+1. Both the user and the computer are dealt 2 cards.
+2. The player can choose to draw additional cards.
+3. The dealer automatically draws until reaching a score of 17 or higher.
+4. The game ends when either side hits Blackjack, goes over 21, or both stand.
+5. Final hands and the winner are displayed.
+
+💡 Learning Outcomes
+
+ Function design and reuse (`deal_card()`, `calculate_score()`, `compare()`)
+ List manipulation and conditional logic
+ Game loop and state handling using `while`
+ Nested conditions for edge cases (e.g., Ace handling)
+ Interactive terminal-based game logic
