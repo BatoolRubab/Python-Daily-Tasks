@@ -1,1 +1,32 @@
+🔢 Higher-Lower Game: Follower Count Edition
+
+A fun terminal-based Python game where players guess which celebrity or personality has more Instagram followers.
+
+📜 Game Description
+
+This game challenges users to choose between two social media accounts and guess which one has more followers.
+With each correct guess, your score increases, and the game continues. One wrong answer ends the game!
+
+🎮 How to Play
+- You will be shown two accounts (A and B), including their name, description, and country.
+- Your task is to guess which one has more followers.
+- Type `'A'` or `'B'` to make your guess.
+- If you're correct, your score increases by 1 and the game continues.
+- If you're wrong, the game ends and your final score is displayed.
+
+🛠️ Features
+
+- Random account selection from a pre-defined dataset
+- Clean and reusable functions
+- User score tracking
+- Clear formatting of account details
+- ASCII art for a visual touch
+
+📁 Project Structure
+art.py            Contains ASCII logo and VS graphics
+game_data.py      Contains a list of dictionaries with account info
+main.py           Main game logic
+
+
+
 
