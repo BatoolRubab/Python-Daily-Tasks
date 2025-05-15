@@ -1,1 +1,49 @@
+☕ Coffee Machine OOP Project
 
+This is a simple coffee vending machine simulation written in Python using Object-Oriented Programming (OOP) concepts.
+The project models a coffee shop experience where users can choose from available drinks, pay with virtual coins, and receive coffee if the machine has sufficient resources.
+
+🚀 Features
+
+- Object-oriented design using Python classes
+- Menu system with Latte, Espresso, and Cappuccino options
+- Virtual coin-based payment system
+- Real-time resource management (water, milk, coffee)
+- Console-based interface
+- Commands to:
+  - Show current machine resources
+  - Turn off the machine
+  - Order coffee
+
+🧱 Project Structure
+
+- main.py - Main script to run the coffee machine interface.
+- menu.py - Contains Menu and MenuItem classes.
+- coffee_maker.py - Contains CoffeeMaker class that handles coffee preparation and resource tracking.
+- money_machine.py - Contains MoneyMachine class that simulates the payment system.
+
+🧩 Classes Overview
+
+MenuItem
+Represents each drink with:
+- name
+- ingredients (water, milk, coffee)
+- cost
+
+Menu
+Holds all drink options and provides:
+- available drink names
+- search functionality for a selected drink
+
+CoffeeMaker
+Manages:
+- machine's ingredients/resources
+- resource checks before making a drink
+- coffee preparation and deduction of resources
+
+MoneyMachine
+Handles:
+- coin input and calculation
+- payment verification
+- returning change
+- tracking profit
