@@ -1,1 +1,18 @@
+Python Quiz App (OOP-Based)
 
+This is a command-line quiz application built using Python and object-oriented programming principles. 
+It presents True/False questions to the user, checks the answers, and keeps score.
+
+Features
+- Object-Oriented Design (Question and QuizBrain classes)
+- Dynamically handles any number of quiz questions
+- Pulls questions from a structured data file (data.py)
+- Accepts True/False input from the user
+- Displays score and correct answer after each question
+- Final score summary at the end
+
+Project Structure                                                                      
+main.py               | The main runner script that connects all components and starts the quiz. 
+quiz_brain.py         | Contains the `QuizBrain` class that manages the quiz flow and scoring.   
+question_model.py     | Contains the `Question` class used to create question objects.           
+data.py               | Holds the `question_data` list (a list of dictionaries with questions).  
