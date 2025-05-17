@@ -1,9 +1,8 @@
 🎨 Hirst Dot Painting with Python Turtle
-This project recreates a **Hirst-style dot painting** using Python's `turtle` graphics module. 
+This project recreates a Hirst-style dot painting using Python's `turtle` graphics module. 
 Inspired by the dot paintings of artist Damien Hirst, it randomly selects colors from a custom palette to generate a grid of colorful dots.
 
 🧰 Features
-
 - Draws a grid of 100+ colorful dots
 - Uses a curated palette of attractive dark and earthy colors
 - Fully automated layout with spacing and direction handling
