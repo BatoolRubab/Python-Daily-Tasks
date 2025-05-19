@@ -1,1 +1,31 @@
+🐢 Turtle Race Game (Python Turtle)
+
+This is a fun turtle race game built using Python's Turtle graphics module. The user places a bet on which turtle (by color) will win the race. 
+Once the race begins, the turtles move forward by random amounts, and a popup at the end will announce the winner and tell you if you won or lost the bet.
+
+🎮 How to Play
+
+1. When the game starts, a popup will ask:  
+   _"Which turtle will win the race? Enter a color:"_  
+   Choose one of the following colors:
+   - red
+   - orange
+   - yellow
+   - blue
+   - purple
+   - green
+
+2. After entering your bet, the race begins automatically.
+3. Turtles move randomly forward.
+4. When one turtle crosses the finish line, a popup shows the result.
+5. The game ends when you click anywhere in the turtle window.
+
+🚀 Features
+
+- Interactive betting system
+- Colorful turtle race animation
+- Randomized movement for excitement
+- End-of-race popup with win/loss message
+
+
 
