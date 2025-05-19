@@ -1,1 +1,23 @@
+ 🖌️ Etch-a-Sketch with Python Turtle
+
+This is a simple Etch-a-Sketch-style drawing program made using Python's built-in Turtle graphics module. 
+You can control the turtle with your keyboard to draw lines, turn directions, and clear the screen just like a classic Etch-a-Sketch toy.
+
+🚀 Features
+
+- Move the turtle forward and backward
+- Turn left or right
+- Clear the screen and reset the turtle's position
+- Real-time drawing with keyboard input
+
+🎮 Controls
+
+| Key | Action                        |
+|-----|-------------------------------|
+| `W` | Move turtle forward           |
+| `S` | Move turtle backward          |
+| `A` | Turn turtle left              |
+| `D` | Turn turtle right             |
+| `C` | Clear the screen and reset    |
+
 
