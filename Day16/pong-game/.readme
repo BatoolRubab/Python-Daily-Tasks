@@ -1,1 +1,24 @@
+🏓 Pong Game with Python Turtle
+
+This is a classic Pong game built using Python's Turtle graphics module. It's a two-player game where each player controls a paddle,
+trying to bounce the ball back and forth. The first player to score 10 points wins the game!
+
+🚀 Features
+🎮 Two-player paddle control:
+  - Right Player: `Up` / `Down` arrow keys
+  - Left Player: `U` / `D` keys
+🧠 Smart collision detection with walls and paddles
+🏁 Win condition: First player to score **10 points** wins!
+🎉 Displays "Player X Wins!" message on game over
+📏 Visual center divider line for better aesthetics
+⏱ Ball speed increases with each paddle hit for more challenge
+
+📁 Project Structure
+pong-game/
+├── main.py           # Main game loop
+├── ball.py           # Ball class and behavior
+├── paddle.py         # Paddle class and movement
+├── scoreboard.py     # Scoreboard + game over logic
+
+
 
