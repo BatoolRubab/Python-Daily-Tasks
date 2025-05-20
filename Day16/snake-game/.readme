@@ -1,1 +1,27 @@
+🐍 Snake Game - Python Turtle Edition
+
+A classic Snake game built using Python's built-in `turtle` graphics module. Eat the food, grow your snake, 
+and avoid crashing into walls or your own tail. Simple, fun, and fully customizable!
+
+🎮 Features
+
+- Classic snake gameplay with growing tail
+- Object-Oriented Programming (OOP) structure
+- Score tracking with scoreboard
+- Randomly placed food items
+- Arrow key movement controls
+
+🎨 Controls
+
+ `↑` Arrow Key - Move Up
+ `↓` Arrow Key - Move Down
+ `←` Arrow Key - Move Left
+ `→` Arrow Key - Move Right
+
+📁 Project Structure
+├── main.py         # Main game loop and event handling
+├── snake.py        # Snake class (movement, growth, direction)
+├── food.py         # Food class (appearance, repositioning)
+└── scoreboard.py   # ScoreBoard class (score update, game over display)
+
 
