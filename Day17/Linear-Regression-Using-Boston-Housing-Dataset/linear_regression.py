@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
-# Load CSV (assuming it has headers)
+# Load CSV 
 bos1 = pd.read_csv('HousingData.csv')
 
 # Show missing values before cleaning
