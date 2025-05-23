@@ -1,1 +1,13 @@
+Project Structure
+Data Cleaning: Removal of categorical and unnecessary features.
+Visualization: Scatter matrix and individual feature plots.
+Standardization: Features are standardized using StandardScaler.
+Model Training: Linear regression is applied using two features:
+Engine Size
+Fuel Consumption (MPG)
 
+Evaluation:
+Coefficients and intercept (both standardized and original scale)
+Model predictions vs actual values
+3D Visualization: Regression plane plotted along with test data points.
+Single Feature Models: Additional plots and models trained on individual features for comparison.
